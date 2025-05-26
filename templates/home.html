@@ -6,6 +6,25 @@
     <title>Document</title>
   </head>
   <body style="background-color: rgb(99, 147, 191)">
-    <h1 style="color: red">Hello ai</h1>
+    <h2>Enter Housing Data</h2>
+
+    <h3>{{predicted}}</h3>
+    <form action="http://localhost:5000/predict" method="POST">
+      <label>CRIM:</label><input type="text" name="CRIM" /><br /><br />
+      <label>ZN:</label><input type="text" name="ZN" /><br /><br />
+      <label>INDUS:</label><input type="text" name="INDUS" /><br /><br />
+      <label>CHAS:</label><input type="text" name="CHAS" /><br /><br />
+      <label>NOX:</label><input type="text" name="NOX" /><br /><br />
+      <label>RM:</label><input type="text" name="RM" /><br /><br />
+      <label>AGE:</label><input type="text" name="AGE" /><br /><br />
+      <label>DIS:</label><input type="text" name="DIS" /><br /><br />
+      <label>RAD:</label><input type="text" name="RAD" /><br /><br />
+      <label>TAX:</label><input type="text" name="TAX" /><br /><br />
+      <label>PTRATIO:</label><input type="text" name="PTRATIO" /><br /><br />
+      <label>B:</label><input type="text" name="B" /><br /><br />
+      <label>LSTAT:</label><input type="text" name="LSTAT" /><br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
   </body>
 </html>
