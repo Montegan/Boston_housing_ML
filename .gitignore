@@ -2,7 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+# environment
+vkhrish/
 # C extensions
 *.so
 
